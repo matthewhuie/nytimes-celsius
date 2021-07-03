@@ -1,0 +1,12 @@
+{
+  "name": "NYTimes in Celsius",
+  "description": "Convert weather units on NYTimes.com to Celsius",
+  "version": "0.1",
+  "manifest_version": 3,
+  "content_scripts": [
+   {
+     "matches": [ "*://*.nytimes.com/*" ],
+     "js": [ "jquery-3.6.0.slim.min.js", "nytimes-celsius.js" ]
+   }
+ ]
+}
