@@ -10,5 +10,6 @@
              "lib/jquery-observe.js",
              "nytimes-celsius.js" ]
    }
- ]
+ ],
+ icons: { "224": "nytimes-celsius-224px.png" }
 }
