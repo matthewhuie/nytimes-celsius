@@ -7,9 +7,9 @@
    {
      "matches": [ "*://*.nytimes.com/*" ],
      "js": [ "lib/jquery-3.6.0.slim.min.js",
-             "lib/jquery-observe.js",
+             "lib/jquery-observe.min.js",
              "nytimes-celsius.js" ]
    }
  ],
- icons: { "224": "nytimes-celsius-224px.png" }
+ "icons": { "224": "icons/nytimes-celsius-224px.png" }
 }
