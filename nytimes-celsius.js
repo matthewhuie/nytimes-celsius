@@ -2,7 +2,7 @@
 $("section#masthead-bar-one div#masthead-bar-one-widgets").observe('childlist subtree', record => {
 
   // Main weather widget element
-  weather_widget = $("div[data-testid='weather-widget']:not(.nytimes-celsius)");
+  weather_widget = $("div[data-testid='weather-widget']:contains('°F'):not(.nytimes-celsius)");
 
   if (weather_widget.length) {
     weather_html = weather_widget.html();
